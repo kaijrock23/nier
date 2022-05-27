@@ -1,0 +1,13 @@
+<nav class="navbar navbar-default d-flex">
+    <div class="container-fluid d-flex">
+        <div class="navbar-header d-flex">
+            <ng-content select="a"></ng-content>
+
+        </div>
+        <div class='d-flex'>
+            <ul class="nav navbar-nav d-flex justify-content-between">
+                <ng-content select="li"></ng-content>
+            </ul>
+        </div>
+    </div>
+</nav>
